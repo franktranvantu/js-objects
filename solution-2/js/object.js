@@ -1,13 +1,13 @@
-// Now that you're logging the property names, include the property values too. The console should display four lines that include both the property name and value.
-// For example: 'instrument: piano'.
+// Inside the array, add two object literals.
+// Each object should have two property/value pairs.
 
-const composer = {
-  name: 'Edward Ellington',
-  nickname: 'Duke',
-  genres: ['jazz', 'swing'],
-  instrument: 'piano'
-};
-
-for (const prop in composer) {
-  console.log(`${prop}: ${composer[prop]}`);
-}
+const objects = [
+  {
+    name: 'Bob',
+    age: 20
+  },
+  {
+    name: 'Boo',
+    age: 10
+  }
+];
