@@ -1,1 +1,1 @@
-Create an object literal containing various pieces of information about a person.
+Learn how to access and use an object's data in your program.
