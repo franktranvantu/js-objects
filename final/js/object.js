@@ -6,5 +6,12 @@ const person = {
   skills: ['HTML', 'CSS', 'JAVASCRIPT']
 }
 
-const message = `Hi, I'm ${person.name}. I live in ${person.city}.`;
+person.nickname = 'Tu';
+const message = `
+  Hi, I'm ${person.name}. 
+  I live in ${person.city}. 
+  Most know me as ${person.nickname}.
+  My age is ${person.age + 1}.
+  I have ${person.skills.length} skills: ${person.skills.join(', ')}.
+`;
 console.log(message);

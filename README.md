@@ -1,1 +1,1 @@
-Learn how to access and use an object's data in your program.
+Use dot notation to set the value of an object's property and add new properties to an object.
