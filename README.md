@@ -1,1 +1,1 @@
-Use dot notation to set the value of an object's property and add new properties to an object.
+Use a for...in loop to access each key (or property name) in an object.
