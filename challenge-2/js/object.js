@@ -1,10 +1,13 @@
-// Next, add a new property named isFriendly and set its value to true.
-// Be sure not to change the original object; add the new property using dot notation.
+// Now that you're logging the property names, include the property values too. The console should display four lines that include both the property name and value.
+// For example: 'instrument: piano'.
 
-const addy = {
-  animal: 'dog',
-  age: 3,
-  breed: 'pug'
+const composer = {
+  name: 'Edward Ellington',
+  nickname: 'Duke',
+  genres: ['jazz', 'swing'],
+  instrument: 'piano'
 };
 
-addy.age = 4;
+for (const prop in composer) {
+  console.log(prop);
+}

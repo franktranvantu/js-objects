@@ -1,9 +1,8 @@
-// Addy the pug is now one year older.
-// Add a line of code that sets the age property to 4.
-// Don't change the original declaration of the object.
+// Use a for...in loop to log each of the property names of the composer object to the console.
 
-const addy = {
-  animal: 'dog',
-  age: 3,
-  breed: 'pug'
+const composer = {
+  name: 'Edward Ellington',
+  nickname: 'Duke',
+  genres: ['jazz', 'swing'],
+  instrument: 'piano'
 };
